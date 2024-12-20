@@ -1,0 +1,28 @@
+{
+	"name": "weave-ts",
+	"version": "0.0.1",
+	"description": "Weave literate TypeScript into Markdown",
+	"main": "main.js",
+	"bin": "main.js",
+	"type": "module",
+	"scripts": {
+		"build": "npx tsb"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jdknezek/weave-ts.git"
+	},
+	"author": "Jonathan Knezek",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jdknezek/weave-ts/issues"
+	},
+	"homepage": "https://github.com/jdknezek/weave-ts#readme",
+	"dependencies": {
+		"typescript": "^5.7.2"
+	},
+	"devDependencies": {
+		"@types/node": "^22.10.2",
+		"tsb": "github:jdknezek/tsb"
+	}
+}
